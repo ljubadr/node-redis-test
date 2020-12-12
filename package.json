@@ -1,0 +1,18 @@
+{
+    "name": "redis-test",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "redis-test.js",
+    "scripts": {
+        "run": "tsc index.ts; node index.js"
+    },
+    "dependencies": {
+        "async-redis": "^1.1.7",
+        "node-gzip": "^1.1.2",
+        "typescript": "^4.1.3"
+    },
+    "devDependencies": {
+        "@types/async-redis": "^1.1.1",
+        "@types/node-gzip": "^1.1.0"
+    }
+}
